@@ -1,0 +1,99 @@
+body {
+    margin: 0 0 auto 0;
+}
+
+.intro {
+    background-color: #1f2937;
+    padding: 1px 13rem 0 13rem;
+}
+
+.nav {
+    height: 2rem;
+    margin: 1rem auto;
+    margin-bottom: 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head_logo--txt {
+    color: #f9f8f7;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav__link {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav--txt {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.info {
+    min-height: 30rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.info__text {
+    padding: 0;
+    flex: 1 1 45%;
+}
+.info__head {
+    margin: 0rem;
+}
+
+.info__head--txt {				
+    color: #f9f7f8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+.info__addin {
+    margin-top: 0.2rem;
+}
+
+.info__addin--txt {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.info__img {
+    max-height: 15rem;
+    min-height: 14rem;
+    background-color: #6d747d;
+    flex: 1 1 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_txt {
+    color: #f3f5f5;
+    font-size: 18px;
+}
+
+.btn {
+    background-color: #3882f6;
+    padding: 0.5rem 2rem;
+}
+
+.btn--modif {
+    border: none;
+    border-radius: 0.4rem;
+}
+
+.btn__txt {
+     color: #f3f5f5;
+     font-size: 1rem;
+     font-weight: bold;
+}
+
+.btn__txt--modif {
+    letter-spacing: 1px;
+}
