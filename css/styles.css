@@ -1,6 +1,6 @@
 body {
     margin: 0 0 auto 0;
-    font-family:  Tahoma;
+    font-family:  Helvetica;
 }
 
 .intro {
@@ -15,6 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .head_logo--txt {
@@ -25,12 +26,13 @@ body {
 
 .nav__link {
     display: flex;
-    gap: 1.5rem;
+    gap: 1.2rem;
 }
 
 .nav--txt {
     color: #f9faf8;
-    font-size: 15px;
+    font-size: 18px;
+    
 }
 
 .info {
@@ -53,7 +55,8 @@ body {
 .info__head--txt {				
     color: #f9f7f8;
     font-size: 48px;
-    font-weight: 900;
+    
+    
 }
 .info__addin {
     margin-top: 0.2rem;
@@ -62,6 +65,7 @@ body {
 .info__addin--txt {
     color: #e5e7eb;
     font-size: 18px;
+   
 }
 
 .info__img {
