@@ -4,101 +4,140 @@ body {
    
 }
 
-.intro {
+.hero {
     background-color: #1f2937;
     padding: 1px 10rem 0 10rem;
 }
 
-.nav {
+/**header block**/
+.hero__header {
     height: 2rem;
     margin: 1rem auto;
     margin-bottom: 0rem;
+}
+
+.hero__header--flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
-.head_logo--txt {
+.hero__header__logo--txt {
     color: #f9f8f7;
     font-size: 24px;
     font-weight: bolder;
 }
 
-.nav__link {
+.hero__header__link {
     display: flex;
     gap: 1.2rem;
 }
 
-.nav--txt {
+.hero__header__link--txt {
     color: #f9faf8;
     font-size: 18px;
-    
 }
-
-.info {
+/**hero__info block**/
+.hero_text {
     min-height: 30.5rem;
     width: 100%;
+}
+
+.hero_text--flex {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 3rem;
 }
 
-.info__text {
-    padding: 0;
+.hero__text {
+    
     flex: 1 1 45%;
 }
-.info__head {
+
+.hero__main_h1 {
     margin: 0rem;
 }
 
-.info__head--txt {				
+.hero__main__text {				
     color: #f9f7f8;
     font-size: 48px;
     font-weight: bolder;
-    
 }
-.info__addin {
+
+.hero__second {
     margin-top: 0.2rem;
 }
 
-.info__addin--txt {
+.hero__second__text {
     color: #e5e7eb;
     font-size: 18px;
-   
 }
 
-.info__img {
+.hero__img {
     height: 15rem;
     background-color: #6d747d;
     flex: 1 1 55%;
-    display: flex;
+}
+
+.hero__img--flex {
+    display: flex; 
     justify-content: center;
     align-items: center;
 }
 
-.img_txt {
+.img__placeholder {
     color: #f3f5f5;
     font-size: 18px;
 }
 
-.btn {
+.hero__btn {
     background-color: #3882f6;
     padding: 0.5rem 2rem;
 }
 
-.btn--modif {
+.hero__btn--attr {
     border: none;
     border-radius: 0.4rem;
 }
 
-.btn__txt {
+.hero__btn__txt--attr {
      color: #f3f5f5;
      font-size: 1rem;
      font-weight: bold;
 }
 
-.btn__txt--modif {
-    letter-spacing: 1px;
+/***Random information box***/
+.info__header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 3rem auto;
+}
+.info__img {
+    min-width: 50%;
+    margin-bottom: 7rem;
+}
+.info__img--flex {
+    display: flex;
+    gap: 3.5rem;
+    justify-content: center;
+}
+.img_item_box {
+    min-height: 10rem;
+    width: 10rem; 
+}
+.img_item__txt {
+    display: inline-block;
+    text-align: center;
+    color: rgb(110, 107, 107);
+    font-size: 1.1rem;
+    margin-top: 0.3rem;
+}
+
+.img_item__image {
+    height: 10rem;
+    width: 10rem;
+    border: 3px solid dodgerblue;
+    border-radius: 1rem;
 }
