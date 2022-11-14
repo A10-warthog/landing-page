@@ -114,19 +114,23 @@ body {
     font-weight: bolder;
     margin: 3rem auto;
 }
+
 .info__img {
     min-width: 50%;
     margin-bottom: 7rem;
 }
+
 .info__img--flex {
     display: flex;
     gap: 3.5rem;
     justify-content: center;
 }
+
 .img_item_box {
     min-height: 10rem;
     width: 10rem; 
 }
+
 .img_item__txt {
     display: inline-block;
     text-align: center;
@@ -140,4 +144,44 @@ body {
     width: 10rem;
     border: 3px solid dodgerblue;
     border-radius: 1rem;
+}
+
+/***quote_box***/
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 8.5rem 0;
+}
+.quote__box {
+    width: 59%;
+    margin: auto;
+}
+.quote__text {
+    margin: 0 auto;
+}
+
+.quote__text--txt {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote__text--light {
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.quote__text--line_height {
+    line-height: 2.56rem;    
+}
+
+.quote__author_name {
+    float: right;
+    padding-right: 2rem;
+    margin-top: 0rem;
+}
+
+.quote__author_name--txt {
+    font-size: 1.4rem;
+    font-weight: bold;
 }
