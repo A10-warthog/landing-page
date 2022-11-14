@@ -1,5 +1,5 @@
 body {
-    margin: 0 0 auto 0;
+    margin: 0 0 0 0 ;
     font-family:  Helvetica, Georgia, serif;
    
 }
@@ -10,6 +10,7 @@ body {
 }
 
 /**header block**/
+
 .hero__header {
     height: 2rem;
     margin: 1rem auto;
@@ -37,7 +38,9 @@ body {
     color: #f9faf8;
     font-size: 18px;
 }
+
 /**hero__info block**/
+
 .hero_text {
     min-height: 30.5rem;
     width: 100%;
@@ -51,7 +54,6 @@ body {
 }
 
 .hero__text {
-    
     flex: 1 1 45%;
 }
 
@@ -108,6 +110,7 @@ body {
 }
 
 /***Random information box***/
+
 .info__header {
     text-align: center;
     font-size: 36px;
@@ -187,6 +190,7 @@ body {
 }
 
 /***sign-up box***/
+
 .sign_up {
     padding: 5rem 10rem;
 }
@@ -235,3 +239,20 @@ body {
     font-weight: bold;
     font-size: 18px;
 } 
+
+/***footer***/
+
+.footer {
+    background-color: #1f2937; 
+}
+
+.footer__text {
+    padding: 2.5rem;
+    margin: 0;
+}
+
+.footer__text--txt {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-align: center;
+}
