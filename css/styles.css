@@ -77,7 +77,6 @@
 
 .hero__img {
     height: 15rem;
-    background-color: #6d747d;
     flex: 1 1 55%;
 }
 
@@ -87,7 +86,8 @@
     align-items: center;
 }
 .hero__image {
-
+    height: 100%;
+    width: inherit;
 }
 
 .img__placeholder {
