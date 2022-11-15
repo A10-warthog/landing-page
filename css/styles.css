@@ -86,6 +86,9 @@
     justify-content: center;
     align-items: center;
 }
+.hero__image {
+
+}
 
 .img__placeholder {
     color: #f3f5f5;
