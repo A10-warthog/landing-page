@@ -10,3 +10,5 @@ Credits:
 Pixabay - Close-up of Wheat (Image)
 contact info - http://pixabay.com
 
+Nick Fewings = A field of wheat, ripening in the Summer sunshine
+contact info - https://unsplash.com/photos/y5nhlrvK4UM

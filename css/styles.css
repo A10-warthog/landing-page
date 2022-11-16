@@ -144,13 +144,19 @@
     margin-top: 0.3rem;
 }
 
-.img_item__image {
+.item__img {
     height: 10rem;
     width: 10rem;
     border: 3px solid dodgerblue;
     border-radius: 1rem;
+    
 }
 
+.img_item__image {
+    height: 100%;
+    width: inherit;
+    border-radius: inherit;
+}
 /***quote_box***/
 
 .quote {
