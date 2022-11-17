@@ -134,6 +134,7 @@
 .img_item_box {
     min-height: 10rem;
     width: 10rem; 
+    box-sizing: border;
 }
 
 .img_item__txt {
@@ -141,21 +142,21 @@
     text-align: center;
     color: rgb(110, 107, 107);
     font-size: 1.1rem;
-    margin-top: 0.3rem;
+    margin-top: 0.8rem;
 }
 
 .item__img {
     height: 10rem;
     width: 10rem;
-    border: 3px solid dodgerblue;
     border-radius: 1rem;
-    
 }
 
 .img_item__image {
     height: 100%;
     width: inherit;
+    border: 3px solid dodgerblue;
     border-radius: inherit;
+    box-sizing: border-box;
 }
 /***quote_box***/
 
